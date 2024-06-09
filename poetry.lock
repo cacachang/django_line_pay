@@ -182,20 +182,6 @@ files = [
 ]
 
 [[package]]
-name = "line-pay"
-version = "0.2.0"
-description = "LINE Pay API SDK for Python"
-optional = false
-python-versions = "*"
-files = [
-    {file = "line-pay-0.2.0.tar.gz", hash = "sha256:20af5264a1417588057af9b7484c615a7a64038a24fd46525e3c1f936f3c2e41"},
-    {file = "line_pay-0.2.0-py3-none-any.whl", hash = "sha256:584f3b4bef4b57e3d3275ca6be941b876e10156063e739d1550ebbba7aafd3db"},
-]
-
-[package.dependencies]
-requests = ">=2.22.0"
-
-[[package]]
 name = "requests"
 version = "2.32.3"
 description = "Python HTTP for Humans."
@@ -262,4 +248,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "da87aab23093be443b4580276e127a6b799b0759e73c6f9101e1717c85d517ef"
+content-hash = "736ae48a998b46ccd18e455daec09b2b487c2ab69e901cc0a97f95c14f1e0851"
